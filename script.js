@@ -437,7 +437,7 @@ window.addEventListener('resize', () => {
     createParticles();
 });
 
-const BACKEND_URL = "https://harshal-q28x.onrender.com";
+const BACKEND_URL = "https://harshal-q28x.onrender.com/response";
 
 document.getElementById("yesBtn").addEventListener("click", () => {
   sendResponse("YES");
@@ -460,6 +460,6 @@ function sendResponse(answer) {
     console.log("Response sent:", answer);
   })
   .catch(err => {
-    console.error("Error sending response", err);
+    console.error("Error:", err);
   });
 }
