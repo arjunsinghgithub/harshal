@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💕</title>
+	<link rel="icon" href="images/love.png"/>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;700&family=Satisfy&display=swap" rel="stylesheet">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated background elements -->
+    <div class="heart-bg" id="heartBg"></div>
+    <div class="particles" id="particles"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        
+        <h1 class="main-title"  id="heading">Hey Zakiaaa!</h1>
+        
+        <div class="meme-container">
+            <img class="meme-image" viewBox="0 0 300 300"  src="images/aaaa.png" alt="image"></img>
+        </div>
+
+        <div id="proposalContent">
+            <p class="question">Will You Be My Valentine? 🌹</p>
+            
+            <div class="buttons-container" id="buttonsContainer">
+                <button id="yesBtn" class="btn-yes">
+                    <span class="btn-text">Yes! 💖</span>
+                    <span class="btn-shine"></span>
+                </button>
+                <button id="noBtn" class="btn-no">
+                    <span class="btn-text">No 😢</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="success-message" id="successMessage">
+            <div class="success-animation">
+                <div class="heart-burst">
+                    <span class="heart-icon">💗</span>
+                    <span class="heart-icon">💝</span>
+                    <span class="heart-icon">💘</span>
+                </div>
+                <p class="success-text">I'm so happy! You just made my day! 😊</p>
+                <p class="success-subtext">Happy Valentine's Day! 🌹💕</p>
+                <div class="celebration-emojis">
+                    <span>💑</span>
+                    <span>💝</span>
+                    <span>💐</span>
+                    <span>🥰</span>
+                    <span>💘</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fireworks canvas -->
+    <canvas id="fireworks"></canvas>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
