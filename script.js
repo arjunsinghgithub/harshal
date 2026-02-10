@@ -437,7 +437,7 @@ window.addEventListener('resize', () => {
     createParticles();
 });
 
-const BACKEND_URL = "https://valentine-backend.onrender.com/response";
+const BACKEND_URL = "https://harshal-q28x.onrender.com";
 
 document.getElementById("yesBtn").addEventListener("click", () => {
   sendResponse("YES");
