@@ -463,3 +463,11 @@ function sendResponse(answer) {
     console.error("Error:", err);
   });
 }
+
+const express = require("express");
+const cors = require("cors");
+
+const app = express();
+
+app.use(cors()); // VERY IMPORTANT
+app.use(express.json());
